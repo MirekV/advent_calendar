@@ -3,15 +3,18 @@ import './App.css';
 import { CardList } from './components/card-list/card-list.component';
 import { DAYS } from './constants';
 import Snowfall from 'react-snowfall'
+import LightBox from './components/light-box'
 
 class App extends Component {
   state = {
-    rerender: false
+    rerender: false,
+    photoIndex: '',
+    isOpenPicture: false
   }
 
   componentDidMount() {
     const today = new Date()
-    const firstDecember = new Date('2020-10-01T00:00:00')
+    const firstDecember = new Date('2020-10-20T00:00:00')
     const timestamp = (today - firstDecember) / 1000;
     const numberDay = Math.floor(timestamp / 86400);
 
@@ -19,7 +22,6 @@ class App extends Component {
     for(let i = 0; i < numberDay; i++){
       arrayDaysNumber.push(i)
     }
-    console.log(arrayDaysNumber)
     this.setEventCalendar(arrayDaysNumber)
   }
 
@@ -39,17 +41,47 @@ class App extends Component {
     this.setState({rerender: true})
     localStorage.setItem("days", JSON.stringify(days))
   }
+
+  openPicture = (photoIndex) => {
+    this.setState({photoIndex, isOpenPicture: true})
+  }
+
+  closePicture = () => {
+    this.setState({isOpenPicture: false})
+  }
+
+  handleMovePrevRequest = (photoIndex, days) => {
+    this.setState({
+      photoIndex: (photoIndex + days.length - 1) % days.length,
+    })
+  }
   
+  handleMoveNextRequest = (photoIndex, days) => {
+    this.setState({
+      photoIndex: (photoIndex + 1) % days.length,
+    })
+  }
 
   render() {
     let days = JSON.parse(localStorage.getItem("days") || "[]"); 
-    console.log(days)
+    const { isOpenPicture, photoIndex } = this.state
+    let pictures = []
+    days.forEach((day) => {
+      if(day.isClickedPackage) pictures.push(day)
+    })
     return (
-      
       <div className='App'>
-      <Snowfall />
+        <LightBox 
+          isOpenPicture={isOpenPicture} 
+          photoIndex={photoIndex} 
+          days={pictures} 
+          closePicture={this.closePicture} 
+          handleMovePrevRequest={this.handleMovePrevRequest}
+          handleMoveNextRequest={this.handleMoveNextRequest}
+        />
+        <Snowfall />
         <h1>Adventní Kalendář</h1>
-        <CardList days={days} setEventCalendar={this.setEventCalendar} />
+        <CardList days={days} setEventCalendar={this.setEventCalendar} openPicture={this.openPicture} />
       </div>
     );
   }
