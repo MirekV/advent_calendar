@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/advent_calendar/static/css/main.6076b156.chunk.css",
-    "main.js": "/advent_calendar/static/js/main.021cfe06.chunk.js",
-    "main.js.map": "/advent_calendar/static/js/main.021cfe06.chunk.js.map",
+    "main.css": "/advent_calendar/static/css/main.3b71fe77.chunk.css",
+    "main.js": "/advent_calendar/static/js/main.5884b858.chunk.js",
+    "main.js.map": "/advent_calendar/static/js/main.5884b858.chunk.js.map",
     "runtime-main.js": "/advent_calendar/static/js/runtime-main.929cb42b.js",
     "runtime-main.js.map": "/advent_calendar/static/js/runtime-main.929cb42b.js.map",
-    "static/js/2.c926f766.chunk.js": "/advent_calendar/static/js/2.c926f766.chunk.js",
-    "static/js/2.c926f766.chunk.js.map": "/advent_calendar/static/js/2.c926f766.chunk.js.map",
+    "static/css/2.9522b9fe.chunk.css": "/advent_calendar/static/css/2.9522b9fe.chunk.css",
+    "static/js/2.059f4305.chunk.js": "/advent_calendar/static/js/2.059f4305.chunk.js",
+    "static/js/2.059f4305.chunk.js.map": "/advent_calendar/static/js/2.059f4305.chunk.js.map",
     "index.html": "/advent_calendar/index.html",
-    "precache-manifest.c0a8d34e93955307707d46985a5f1335.js": "/advent_calendar/precache-manifest.c0a8d34e93955307707d46985a5f1335.js",
+    "precache-manifest.5ec8984e7b3714e6c7f093d8fba00a9b.js": "/advent_calendar/precache-manifest.5ec8984e7b3714e6c7f093d8fba00a9b.js",
     "service-worker.js": "/advent_calendar/service-worker.js",
-    "static/css/main.6076b156.chunk.css.map": "/advent_calendar/static/css/main.6076b156.chunk.css.map",
+    "static/css/2.9522b9fe.chunk.css.map": "/advent_calendar/static/css/2.9522b9fe.chunk.css.map",
+    "static/css/main.3b71fe77.chunk.css.map": "/advent_calendar/static/css/main.3b71fe77.chunk.css.map",
     "static/media/cafe.jpg": "/advent_calendar/static/media/cafe.09289dfa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.929cb42b.js",
-    "static/js/2.c926f766.chunk.js",
-    "static/css/main.6076b156.chunk.css",
-    "static/js/main.021cfe06.chunk.js"
+    "static/css/2.9522b9fe.chunk.css",
+    "static/js/2.059f4305.chunk.js",
+    "static/css/main.3b71fe77.chunk.css",
+    "static/js/main.5884b858.chunk.js"
   ]
 }
