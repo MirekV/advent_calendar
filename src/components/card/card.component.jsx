@@ -8,13 +8,13 @@ export const Card = ({index,  day : { url, isClickedPackage, isPossibleOpen, dat
         onClick={()=> openPicture(index)}
         alt='obrázek'
         src={require(`${url}`)}
-        width="200" 
-        height="200"
+        width="120" 
+        height="120"
         style={{borderRadius: '5px'}}
       /> 
       : 
       !isClickedPackage && isPossibleOpen ?
-    <div style={{width: '200px', height: '200px'}}>
+    <div style={{width: '120px', height: '120px'}}>
       <div  onClick={()=> setEventCalendar([index], true)} id="circle">
         <div id="gift">
           <div id="ribbon"></div>
@@ -23,7 +23,7 @@ export const Card = ({index,  day : { url, isClickedPackage, isPossibleOpen, dat
       </div>
     </div>
     : 
-    <div style={{width: '200px', height: '200px'}}>
+    <div style={{width: '120px', height: '120px'}}>
       <div  id="">
         <div id="gift">
           <div id="ribbon"></div>

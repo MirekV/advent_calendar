@@ -5,9 +5,11 @@ body {
   margin: 0;
   font-family: 'Mountains of Christmas';
   text-align: center;
-  background: #030329ea;
+  background-color: #f0daa0;
+  background-image: url('backround.jpg');
   background-repeat: no-repeat;
   margin: 0;
+  text-align: -webkit-center;
 }
 
 code {

@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount() {
     const today = new Date()
-    const firstDecember = new Date('2020-10-20T00:00:00')
+    const firstDecember = new Date('2020-11-01T00:00:00')
     const timestamp = (today - firstDecember) / 1000;
     const numberDay = Math.floor(timestamp / 86400);
 
@@ -71,6 +71,7 @@ class App extends Component {
     })
     return (
       <div className='App'>
+      
         <LightBox 
           isOpenPicture={isOpenPicture} 
           photoIndex={photoIndex} 
@@ -80,7 +81,6 @@ class App extends Component {
           handleMoveNextRequest={this.handleMoveNextRequest}
         />
         <Snowfall />
-        <h1>Adventní Kalendář</h1>
         <CardList days={days} setEventCalendar={this.setEventCalendar} openPicture={this.openPicture} />
       </div>
     );

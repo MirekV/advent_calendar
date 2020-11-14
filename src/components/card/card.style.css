@@ -1,10 +1,10 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #d7e4ab;
+  background-color: #ffc847;
 
   border-radius: 5px;
-  padding: 25px;
+  padding: 5px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
@@ -16,10 +16,10 @@
 .card-container-no-efect {
   display: flex;
   flex-direction: column;
-  background-color: #d7e4ab;
+  background-color: #ffc847;
   opacity: 0.6;
   border-radius: 5px;
-  padding: 25px;
+  padding: 5px;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
@@ -46,10 +46,10 @@ h2 {
 }
 
 #circle {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #ffc847;
-  border-radius: 200px;
+  border-radius: 100px;
   position: absolute;
   top: 0;
   right: 0;
@@ -61,10 +61,10 @@ h2 {
 #circle:after {
   content: '';
   display: block;
-  border: 7px dashed white;
-  width: 186px;
-  height: 186px;
-  border-radius: 186px;
+  border: 4px dashed white;
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
   animation: spin 30s linear infinite;
 }
 #circle:hover {
@@ -77,33 +77,33 @@ h2 {
   left: 0;
   bottom: 0;
   margin: auto;
-  width: 100px;
-  height: 125px;
+  width: 50px;
+  height: 80px;
 }
 #ribbon {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   transform: rotate(45deg);
   margin: auto;
-  margin-bottom: -38px;
+  margin-bottom: -12px;
   border-radius: 0 8px 0 8px;
 }
 #ribbon:before {
   content: '';
-  height: 24px;
+  height: 12px;
   width: 100%;
   background-color: #f04d4d;
   display: block;
   position: absolute;
-  top: 18px;
+  top: 9px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
   border-radius: inherit;
 }
 #ribbon:after {
   content: '';
   height: 100%;
-  width: 24px;
+  width: 12px;
   background-color: #f04d4d;
   display: block;
   margin: auto;
@@ -113,10 +113,10 @@ h2 {
 #giftbox {
   position: relative;
   margin: auto;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-color: white;
-  border-radius: 2px;
+  border-radius: 1px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
