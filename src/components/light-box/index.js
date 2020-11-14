@@ -6,17 +6,17 @@ export default class LightboxExample extends Component {
 
   render() {
     const { days, isOpenPicture, photoIndex, closePicture, handleMovePrevRequest, handleMoveNextRequest } = this.props;
-
+    const index = days.length && !days[photoIndex] ? days.length -1 : days.length && days[photoIndex] ? photoIndex : 0
     return (
       <div>
         {isOpenPicture ? (<Lightbox
-            mainSrc={require(`${days[photoIndex].url}`)}
-            nextSrc={require(`${days[(photoIndex + 1) % days.length].url}`)}
-            prevSrc={require(`${days[(photoIndex + days.length - 1) % days.length].url}`)}
+            mainSrc={require(`${days[index].url}`)}
+            nextSrc={require(`${days[(index + 1) % days.length].url}`)}
+            prevSrc={require(`${days[(index + days.length - 1) % days.length].url}`)}
             onCloseRequest={() => closePicture()}
-            onMovePrevRequest={() => handleMovePrevRequest(photoIndex, days)}
-            onMoveNextRequest={() => handleMoveNextRequest(photoIndex, days)}
-            imageTitle={days[photoIndex].date}
+            onMovePrevRequest={() => handleMovePrevRequest(index, days)}
+            onMoveNextRequest={() => handleMoveNextRequest(index, days)}
+            imageTitle={days[index].date}
             clickOutsideToClose={true}
           />) : null}
       </div>

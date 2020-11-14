@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount() {
     const today = new Date()
-    const firstDecember = new Date('2020-11-01T00:00:00')
+    const firstDecember = new Date('2020-10-31T00:00:00')
     const timestamp = (today - firstDecember) / 1000;
     const numberDay = Math.floor(timestamp / 86400);
 
