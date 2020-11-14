@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f7112c1a54570f7801ec312583b9bd2",
+    "revision": "9770411dddf4f32dd0ec5768abb9e83f",
     "url": "/advent_calendar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advent_calendar/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "c56e3de44abb99b7ef0e",
+    "revision": "fbf1aa5459f0d7d64891",
     "url": "/advent_calendar/static/css/main.2770aeed.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advent_calendar/static/js/2.c5d65a04.chunk.js"
   },
   {
-    "revision": "c56e3de44abb99b7ef0e",
-    "url": "/advent_calendar/static/js/main.e2126788.chunk.js"
+    "revision": "fbf1aa5459f0d7d64891",
+    "url": "/advent_calendar/static/js/main.522e1618.chunk.js"
   },
   {
     "revision": "9b1e81808d9d279832e2",

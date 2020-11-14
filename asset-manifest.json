@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/advent_calendar/static/css/main.2770aeed.chunk.css",
-    "main.js": "/advent_calendar/static/js/main.e2126788.chunk.js",
-    "main.js.map": "/advent_calendar/static/js/main.e2126788.chunk.js.map",
+    "main.js": "/advent_calendar/static/js/main.522e1618.chunk.js",
+    "main.js.map": "/advent_calendar/static/js/main.522e1618.chunk.js.map",
     "runtime-main.js": "/advent_calendar/static/js/runtime-main.929cb42b.js",
     "runtime-main.js.map": "/advent_calendar/static/js/runtime-main.929cb42b.js.map",
     "static/css/2.9522b9fe.chunk.css": "/advent_calendar/static/css/2.9522b9fe.chunk.css",
     "static/js/2.c5d65a04.chunk.js": "/advent_calendar/static/js/2.c5d65a04.chunk.js",
     "static/js/2.c5d65a04.chunk.js.map": "/advent_calendar/static/js/2.c5d65a04.chunk.js.map",
     "index.html": "/advent_calendar/index.html",
-    "precache-manifest.ae7e5736d2e7007d7b7cc98bb45285a4.js": "/advent_calendar/precache-manifest.ae7e5736d2e7007d7b7cc98bb45285a4.js",
+    "precache-manifest.2ba099f39b8e860eee0afdb3f7140a07.js": "/advent_calendar/precache-manifest.2ba099f39b8e860eee0afdb3f7140a07.js",
     "service-worker.js": "/advent_calendar/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/advent_calendar/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.2770aeed.chunk.css.map": "/advent_calendar/static/css/main.2770aeed.chunk.css.map",
@@ -45,6 +45,6 @@
     "static/css/2.9522b9fe.chunk.css",
     "static/js/2.c5d65a04.chunk.js",
     "static/css/main.2770aeed.chunk.css",
-    "static/js/main.e2126788.chunk.js"
+    "static/js/main.522e1618.chunk.js"
   ]
 }
