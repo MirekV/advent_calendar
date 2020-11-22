@@ -5,9 +5,9 @@ body {
   margin: 0;
   font-family: 'Mountains of Christmas';
   text-align: center;
-  background-color: #f0daa0;
-  background-image: url('backround.jpg');
-  background-repeat: no-repeat;
+  background-color: #233050;
+  background-image: url('./stars.jpg');
+  background-repeat: repeat;
   margin: 0;
   text-align: -webkit-center;
 }
