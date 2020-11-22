@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9770411dddf4f32dd0ec5768abb9e83f",
+    "revision": "1609030b4e247cbc55055ac7964bd722",
     "url": "/advent_calendar/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advent_calendar/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "fbf1aa5459f0d7d64891",
-    "url": "/advent_calendar/static/css/main.2770aeed.chunk.css"
+    "revision": "c0cb596f8de4a0914320",
+    "url": "/advent_calendar/static/css/main.f26e4b71.chunk.css"
   },
   {
     "revision": "264962f074a639917e99",
     "url": "/advent_calendar/static/js/2.c5d65a04.chunk.js"
   },
   {
-    "revision": "fbf1aa5459f0d7d64891",
+    "revision": "c0cb596f8de4a0914320",
     "url": "/advent_calendar/static/js/main.522e1618.chunk.js"
   },
   {
@@ -120,11 +120,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advent_calendar/static/media/9.b7e5198f.jpg"
   },
   {
-    "revision": "223eeda9045f52b28c0f430761eb184f",
-    "url": "/advent_calendar/static/media/backround.223eeda9.jpg"
-  },
-  {
     "revision": "09289dfa83ed85f84b60d6372d4de4c0",
     "url": "/advent_calendar/static/media/cafe.09289dfa.jpg"
+  },
+  {
+    "revision": "0bb218dca552c796dca17ceb792fa533",
+    "url": "/advent_calendar/static/media/stars.0bb218dc.jpg"
   }
 ]);
